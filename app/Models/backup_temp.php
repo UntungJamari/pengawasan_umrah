@@ -1,6 +1,6 @@
 User::create([
 'username' => 'kanwil_kemenag',
-'password' => bcrypt('11111111'),
+'password' => bcrypt('12345678'),
 'level' => 'kanwil'
 ])
 
@@ -16,7 +16,7 @@ Kab_kota::create([
 
 User::create([
 'username' => 'kemenag_agam',
-'password' => bcrypt('11111111'),
+'password' => bcrypt('12345678'),
 'level' => 'kab/kota'
 ])
 
@@ -29,7 +29,7 @@ Kemenag_kab_kota::create([
 
 User::create([
 'username' => 'mftt_agm',
-'password' => bcrypt('11111111'),
+'password' => bcrypt('12345678'),
 'level' => 'ppiu'
 ])
 
@@ -49,7 +49,7 @@ Kab_kota::create([
 
 User::create([
 'username' => 'kemenag_dharmasraya',
-'password' => bcrypt('11111111'),
+'password' => bcrypt('12345678'),
 'level' => 'kab/kota'
 ])
 

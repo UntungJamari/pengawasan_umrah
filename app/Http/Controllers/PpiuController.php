@@ -100,7 +100,7 @@ class PpiuController extends Controller
             'logo' => 'image|file|max:1024',
         ]);
 
-        $valid1['password'] = bcrypt('11111111');
+        $valid1['password'] = bcrypt('12345678');
         $valid1['level'] = 'ppiu';
 
         if ($request->status == 'Pusat') {
