@@ -10,6 +10,7 @@ class PanduanController extends Controller
     {
         return view('panduan.index', [
             'title' => 'Panduan',
+            'subtitle' => 'Panduan',
         ]);
     }
 }

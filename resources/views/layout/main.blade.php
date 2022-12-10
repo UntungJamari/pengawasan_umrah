@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
     <link rel="icon" type="image/png" href="{{ URL::asset('images/logo_kemenag.png') }}">
-    <title>{{ $title }}</title>
+    <title>{{ $subtitle }} | Sistem Informasi Pengawasan Umrah Sumatra Barat</title>
 
     <!-- Custom fonts for this template-->
     <link href="{{ URL::asset('font/fontawesome-free/css/all.min.css') }}" rel="stylesheet" type="text/css">

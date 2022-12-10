@@ -29,7 +29,7 @@ class ProfilController extends Controller
             if ($user->ppiu->id_akreditasi == null) {
                 return view('profil.index', [
                     'title' => 'Profil',
-                    'subtitle' => 'fffffff',
+                    'subtitle' => 'Profil',
                     'user' => $user,
                     'nama' => $nama,
                     'akreditasi' => 'Anda Belum Melakukan Akreditasi!',
@@ -44,7 +44,7 @@ class ProfilController extends Controller
                     // dd('peringatan', $tanggal_sekarang, $tanggal_habis);
                     return view('profil.index', [
                         'title' => 'Profil',
-                        'subtitle' => 'fffffff',
+                        'subtitle' => 'Profil',
                         'user' => $user,
                         'nama' => $nama,
                         'akreditasi' => 'Akreditasi Anda Akan Habis, Silakan Perbarui!',
@@ -54,7 +54,7 @@ class ProfilController extends Controller
                     // dd('habis', $tanggal_sekarang, $tanggal_habis);
                     return view('profil.index', [
                         'title' => 'Profil',
-                        'subtitle' => 'fffffff',
+                        'subtitle' => 'Profil',
                         'user' => $user,
                         'nama' => $nama,
                         'akreditasi' => 'Akreditasi Anda Sudah Habis, Silakan Perbarui!',
@@ -63,7 +63,7 @@ class ProfilController extends Controller
 
                 return view('profil.index', [
                     'title' => 'Profil',
-                    'subtitle' => 'fffffff',
+                    'subtitle' => 'Profil',
                     'user' => $user,
                     'nama' => $nama,
                     'akreditasi' => '',
@@ -73,7 +73,7 @@ class ProfilController extends Controller
 
         return view('profil.index', [
             'title' => 'Profil',
-            'subtitle' => 'fffffff',
+            'subtitle' => 'Profil',
             'user' => $user,
             'nama' => $nama,
             'akreditasi' => '',
@@ -86,7 +86,7 @@ class ProfilController extends Controller
 
         return view('profil.edit', [
             'title' => 'Profil',
-            'subtitle' => 'fffffff',
+            'subtitle' => 'Edit Profil',
             'user' => $user,
         ]);
     }
@@ -197,7 +197,7 @@ class ProfilController extends Controller
     {
         return view('profil.gantipassword', [
             'title' => 'Ganti Password',
-            'subtitle' => 'fffffff',
+            'subtitle' => 'Ganti Password',
         ]);
     }
 
@@ -227,7 +227,7 @@ class ProfilController extends Controller
 
         return view('profil.akreditasi', [
             'title' => 'Akreditasi',
-            'subtitle' => 'fffffff',
+            'subtitle' => 'Perbarui Akreditasi',
         ]);
     }
 

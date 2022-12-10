@@ -29,6 +29,7 @@ class PpiuController extends Controller
         }
         return view('ppiu.index', [
             'title' => 'PPIU',
+            'subtitle' => 'PPIU',
             'ppius' =>  $ppiu
         ]);
     }

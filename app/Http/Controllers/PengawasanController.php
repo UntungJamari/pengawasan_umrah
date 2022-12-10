@@ -39,6 +39,7 @@ class PengawasanController extends Controller
 
         return view('pengawasan.index', [
             'title' => 'Pengawasan',
+            'subtitle' => 'Pengawasan',
             'pengawasans' => $pengawasan,
             'bulans' => $bulan,
             'tahun' => $currentTahun,
@@ -138,7 +139,7 @@ class PengawasanController extends Controller
 
         return view('pengawasan.detail', [
             'title' => 'Pengawasan',
-            'subtitle' => 'Detail Pengawasan',
+            'subtitle' => 'Detail Isian Blanko Pengawasan',
             'pengawasan' => $pengawasan,
             'file_pengawasans' => $file_pengawasan,
         ]);

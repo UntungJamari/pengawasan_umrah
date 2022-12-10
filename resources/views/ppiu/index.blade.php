@@ -11,7 +11,7 @@
 <!-- Page level custom scripts -->
 <script src="{{ URL::asset('js/demo/datatables-demo.js') }}"></script>
 <div class="d-sm-flex align-items-center justify-content-between mb-4">
-    <h1 class="h3 mb-0 text-gray-800">PPIU</h1>
+    <h1 class="h3 mb-0 text-gray-800">{{ $title }}</h1>
 </div>
 
 <!-- Content Row -->

@@ -39,6 +39,7 @@ class DashboardController extends Controller
             if ($ppiu->id_akreditasi == null) {
                 return view('dashboard.index', [
                     'title' => 'Dashboard',
+                    'subtitle' => 'Dashboard',
                     'totalPpiu' => $countPpiu,
                     'totalPengawasan' => $pengawasan->count(),
                     'totalJemaah' => $total_jemaah,
@@ -54,6 +55,7 @@ class DashboardController extends Controller
                     // dd('peringatan', $tanggal_sekarang, $tanggal_habis);
                     return view('dashboard.index', [
                         'title' => 'Dashboard',
+                        'subtitle' => 'Dashboard',
                         'totalPpiu' => $countPpiu,
                         'totalPengawasan' => $pengawasan->count(),
                         'totalJemaah' => $total_jemaah,
@@ -64,6 +66,7 @@ class DashboardController extends Controller
                     // dd('habis', $tanggal_sekarang, $tanggal_habis);
                     return view('dashboard.index', [
                         'title' => 'Dashboard',
+                        'subtitle' => 'Dashboard',
                         'totalPpiu' => $countPpiu,
                         'totalPengawasan' => $pengawasan->count(),
                         'totalJemaah' => $total_jemaah,
@@ -73,6 +76,7 @@ class DashboardController extends Controller
 
                 return view('dashboard.index', [
                     'title' => 'Dashboard',
+                    'subtitle' => 'Dashboard',
                     'totalPpiu' => $countPpiu,
                     'totalPengawasan' => $pengawasan->count(),
                     'totalJemaah' => $total_jemaah,
@@ -82,6 +86,7 @@ class DashboardController extends Controller
         }
         return view('dashboard.index', [
             'title' => 'Dashboard',
+            'subtitle' => 'Dashboard',
             'totalPpiu' => $countPpiu,
             'totalPengawasan' => $pengawasan->count(),
             'totalJemaah' => $total_jemaah,

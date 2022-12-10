@@ -13,7 +13,7 @@
     <meta name="author" content="">
 
     <link rel="icon" type="image/png" href="images/logo_kemenag.png">
-    <title>{{ $title }}</title>
+    <title>{{ $title }} | Sistem Informasi Pengawasan Umrah Sumatra Barat</title>
 
     <!-- Custom fonts for this template-->
     <link href="font/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -49,7 +49,7 @@
                                         <img src="images/logo_kemenag.png" alt="logo_kemenag.png" width="30%">
                                     </div>
                                     <div class="text-center mt-5">
-                                        <h1 class="h4 text-gray-900 mb-4">Selamat Datang di Sistem Informasi Pengawasan Umrah Sumatera Barat</h1>
+                                        <h1 class="h4 text-gray-900 mb-4">Selamat Datang di Sistem Informasi Pengawasan Umrah Sumatra Barat</h1>
                                         @if(session()->has('gagal'))
                                         <script>
                                             swal.fire({
