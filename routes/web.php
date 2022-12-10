@@ -8,6 +8,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\PpiuController;
 use App\Http\Controllers\PengawasanController;
 use App\Http\Controllers\ProfilController;
+use App\Http\Controllers\PanduanController;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,3 +56,5 @@ Route::get('/pengawasan/update/{pengawasan}', [PengawasanController::class, 'edi
 Route::post('/pengawasan/update/{pengawasan}', [PengawasanController::class, 'update'])->middleware('auth');
 Route::post('/pengawasan/delete/{pengawasan}', [PengawasanController::class, 'destroy'])->middleware('auth');
 Route::post('/pengawasan/export', [PengawasanController::class, 'export'])->middleware('auth');
+
+Route::get('/panduan', [PanduanController::class, 'index'])->middleware('auth');

@@ -39,7 +39,7 @@
                     Profil
                 </a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="profil/gantipassword">
+                <a class="dropdown-item" href="/profil/gantipassword">
                     <i class="fas fa-key fa-sm fa-fw mr-2 text-gray-400"></i>
                     Ganti Password
                 </a>

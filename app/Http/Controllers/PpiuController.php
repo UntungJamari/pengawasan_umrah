@@ -274,7 +274,17 @@ class PpiuController extends Controller
     {
         $this->authorize('delete', $ppiu);
 
-        Storage::delete($ppiu->logo);
+        if ($ppiu->status == 'Pusat') {
+            $del_users = Ppiu::where('nama', $ppiu->nama)->get();
+            if ($ppiu->logo !== 'image-profile/btuP6rIVQw1r89VG4C5pSPwZyONSORAclojTQU9N.png') {
+                Storage::delete($ppiu->logo);
+            }
+            foreach ($del_users as $del_user) {
+                Ppiu::destroy($del_user->id);
+                User::destroy($del_user->id_user);
+            }
+            return redirect('/ppiu')->with('berhasil', 'Berhasil Menghapus PPIU!');
+        }
 
         Ppiu::destroy($ppiu->id);
         User::destroy($ppiu->id_user);

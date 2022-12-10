@@ -42,7 +42,7 @@
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Total Pengisian Blanko Pengawasan Umrah
+                        <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">Jumlah Pengisian Blanko Pengawasan Umrah
                         </div>
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
@@ -64,7 +64,7 @@
             <div class="card-body">
                 <div class="row no-gutters align-items-center">
                     <div class="col mr-2">
-                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Total Jemaah yang Berangkat Umrah
+                        <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Jumlah Jemaah yang Berangkat Umrah
                         </div>
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
