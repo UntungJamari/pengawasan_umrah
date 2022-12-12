@@ -32,6 +32,12 @@
     <style type="text/css">
         .background {
             background: linear-gradient(#076b07, #5cf25c);
+            background-image: url(images/bg_pengawasan_umrah.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            height: 100%;
         }
     </style>
     <div class="container">
