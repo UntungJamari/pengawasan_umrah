@@ -6,6 +6,7 @@ use App\Models\Kab_kota;
 use App\Models\Kemenag_kab_kota;
 use App\Models\Ppiu;
 use App\Models\User;
+use App\Models\Akreditasi;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;
@@ -283,12 +284,14 @@ class PpiuController extends Controller
             foreach ($del_users as $del_user) {
                 Ppiu::destroy($del_user->id);
                 User::destroy($del_user->id_user);
+                Akreditasi::destroy($del_user->id_akreditasi);
             }
             return redirect('/ppiu')->with('berhasil', 'Berhasil Menghapus PPIU!');
         }
 
         Ppiu::destroy($ppiu->id);
         User::destroy($ppiu->id_user);
+        Akreditasi::destroy($ppiu->id_akrediasi);
 
         return redirect('/ppiu')->with('berhasil', 'Berhasil Menghapus PPIU!');
     }
