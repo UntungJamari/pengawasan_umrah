@@ -86,7 +86,6 @@
                                     <button class="btn btn-success btn-user btn-block" id="btn-login" name="submit" type="submit">
                                         Login
                                     </button>
-                                    <small><a href="/register">Register</a></small>
                                     <br>
                                 </form>
                             </div>
